@@ -1,0 +1,14 @@
+I need to create the web user authentication system for only authorized users to make changes, but I have not gotten there.
+
+GET
+https://map-locations-api3.azurewebsites.net/api/GetLocation?code=ILzNfVXwgkQpYuYlbAqFp0DoosK8hjoSWjYjqBK2xGzS7BsjThZMAw== //gets all of the locations into a single string
+https://map-locations-api3.azurewebsites.net/api/GetLocation?code=ILzNfVXwgkQpYuYlbAqFp0DoosK8hjoSWjYjqBK2xGzS7BsjThZMAw====Name of Project =name //gets the named location 
+
+POST/create
+https://map-locations-api3.azurewebsites.net/api/CreateNewLocation?code=Cbpy8Gq64BApLo9mXnkJhmGTNi55oZaeOhYqSlrSeeXjKHeobU7BWQ==Name of Project=name //creates new entry in database with parameters given
+
+Delete
+https://map-locations-api3.azurewebsites.net/api/DeleteLocation?code=z9Nnmf/PbIXaD22E3oSrSNM9gXHuZ3mvfCXnWpkCkyQLhARsnmhqRA==Name of Project=name //deletes the given entry
+
+Update unfinished: 
+https://map-locations-api3.azurewebsites.net/api/UpdateLocation?code=3c0BjaRq6jVyLBIbEDVIiHe4MCi0XYZJ2VqafOFAe0InEzOh2/1fGA== //updates the entry of the name given and updates the given parameters
